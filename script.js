@@ -12,6 +12,8 @@ function verificarNota() {
         }
     }
     while (true);
+
+    document.getElementById("nota").value = "";
     // while (nota > 0 && nota <= 10) {
     //     msg.textContent = "Nota Ok";
     //     break;
